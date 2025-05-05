@@ -5,3 +5,12 @@ La empresa “Constructora Quintana”, dedicada a la ejecución de proyectos de
 
 2.	Con el crecimiento de su base de clientes interesados en la compra de concreto, el equipo de oficina ya no puede enviar manualmente propuestas, promociones o campañas informativas a todos los contactos. Esto ha generado cuellos de botella y una carga excesiva para el equipo.
 ------
+# Desarrollo:
+se cree conveniente el uso de los siguientes archivos
+main.tf    --> es la infraestructura principal, se definen recursos
+variables.tf  --> se definen las variables tanto globales como especificas
+outputs.tf  --> salidas de la infraestructura 
+dev.tfvars  --> aqui se definen ls condiguraciones para el entorno de desarrollo dev
+prod.tfvars  --> aqui se definen las configuraciones para el entorno de produccion
+carpeta templates, con archivos index.html y el archivo styles.css  --> es el archivo de plantilla html y css
+carpeta codes con los archivos prepare_emails.zip y send_emails.zip --> que son los codigos de lqas funciones lambda empaquetdos
