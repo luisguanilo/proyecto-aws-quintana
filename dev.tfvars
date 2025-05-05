@@ -1,0 +1,5 @@
+region               = "us-east-1"
+environment          = "dev"
+email_templates_bucket = "email-templates-quintana-dev"
+dynamodb_table_name   = "clients-dev"
+sqs_queue_name        = "email-queue-dev"
